@@ -1,0 +1,55 @@
+name: yanchiqen
+description: A new Flutter project for cycle tracking.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For accessing device local storage (to save cycle data).
+  shared_preferences: ^2.2.2
+  table_calendar: ^3.1.2
+
+  # For date formatting (e.g., DateFormat).
+  intl: ^0.19.0
+
+  # For easily using custom fonts from fonts.google.com.
+  google_fonts: ^6.1.0
+
+  # The default icon package for Flutter projects.
+  cupertino_icons: ^1.0.2
+
+  # For OTP input fields
+  pin_code_fields: ^8.0.0
+
+  # For managing state across the app
+  provider: ^6.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/yanchiqen_logo.png
+    - assets/welcome_bg.jpg
+    - assets/google_icon.png
+    - assets/apple_icon.png
+    - assets/profile_icon.png
+    - assets/home_icon.png
+    - assets/calendar_icon.png
+    - assets/graduation_icon.png
+    - assets/chat_icon.png
+    - assets/welcome_bg.jpg
+    - assets/ovulation.png
